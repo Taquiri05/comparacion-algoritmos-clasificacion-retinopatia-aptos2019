@@ -1,0 +1,10 @@
+grupo,id_code,tipo,y,diagnosis,tamano,p_Regresion logistica,p_KNN,p_Arbol de decision
+"Falsos negativos de los 3 modelos, nivel 1",e25ccfe38e44,FN_los_3,1,1,819x614,0.395,0.182,0.0
+"Falsos negativos de los 3 modelos, nivel 1",27e4c800a449,FN_los_3,1,1,2416x1736,0.179,0.364,0.0
+"Falsos negativos de los 3 modelos, nivel 1",7347f5133a6a,FN_los_3,1,1,2416x1736,0.333,0.182,0.136
+"Falsos negativos de los 3 modelos, nivel 2",144a1a426137,FN_los_3,1,2,1050x1050,0.189,0.0,0.202
+"Falsos negativos de los 3 modelos, nivel 2",dc6fa1b38b83,FN_los_3,1,2,2588x1958,0.155,0.273,0.034
+"Falsos negativos de los 3 modelos, nivel 2",be21d8b60e2a,FN_los_3,1,2,1050x1050,0.051,0.091,0.0
+"Falsos positivos de los 3 modelos, tamano 819x614 (sin RD)",789c60cba801,FP_los_3,0,0,819x614,0.763,0.909,0.918
+"Falsos positivos de los 3 modelos, tamano 819x614 (sin RD)",d7a01fca9838,FP_los_3,0,0,819x614,0.642,0.818,0.918
+"Falsos positivos de los 3 modelos, tamano 819x614 (sin RD)",c90c6b94cf40,FP_los_3,0,0,819x614,0.909,0.818,1.0
