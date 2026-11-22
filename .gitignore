@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+muestra/
+capturas/
+# figuras que muestran fotos reales del dataset (licencia APTOS 2019: no redistribuir)
+figuras/fig_fase2_panel_niveles.png
+figuras/fig_fase3_paso1_recorte.png
+figuras/fig_fase3_paso2_rojas.png
+figuras/fig_fase3_paso3_exudados.png
+figuras/fig_fase3_paso4_vasos.png
+figuras/fig_fase7_ejemplos_errores.png
+# nunca imagenes sueltas
+*.jpg
+*.jpeg
+
+# archivos comprimidos (pueden contener fotos del dataset)
+*.zip
