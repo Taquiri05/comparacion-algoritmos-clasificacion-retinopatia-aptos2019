@@ -1,0 +1,10 @@
+caracteristica,familia,que_mide,decision,AUC,AUC_subconjunto,pasa_control,nota_control_camara
+area_rojas,Lesiones rojas,% de la retina cubierto por microaneurismas y hemorragias,Se mantiene,0.6716600965622223,0.6502732240437159,True,paso el control de camara
+n_rojas,Lesiones rojas,Cantidad de manchas rojas,Se mantiene (muy correlacionada con area_rojas),0.6209446099304657,0.6213533403842764,True,paso el control de camara
+area_exudados,Exudados,% de la retina cubierto por exudados,Se mantiene; sale al reves de lo esperado: se declara como limitacion,0.4484559125671874,0.4140445972148775,False,no paso el control de camara (se declara como limitacion)
+n_exudados,Exudados,Cantidad de manchas de exudado,Se mantiene; sale al reves de lo esperado: se declara como limitacion,0.43967169045099663,0.39776132557729593,True,paso el control de camara
+densidad_vasos,Vasos,Largo de vasos (esqueleto) / retina valida x 100,Se mantiene (puede reflejar nitidez de la foto),0.36870001239263683,0.26760532346201304,True,paso el control de camara
+glcm_contraste,Textura GLCM,Diferencia de brillo entre pixeles vecinos,Se mantiene (correlacionada con homogeneidad y energia),0.23010919067050184,0.29889388330689226,True,paso el control de camara
+glcm_homogeneidad,Textura GLCM,Parecido de brillo entre pixeles vecinos,Se mantiene (correlacionada con contraste y energia),0.8004880792366135,0.6822228098008108,True,paso el control de camara
+glcm_energia,Textura GLCM,Uniformidad de los pares de brillo (pocos patrones repetidos),Se mantiene (correlacionada con contraste),0.7367397531206114,0.6541071743345673,True,paso el control de camara
+glcm_correlacion,Textura GLCM,Predictibilidad del brillo del vecino,Se mantiene,0.6498784066581071,0.5736603208179093,False,no paso el control de camara (se declara como limitacion)
