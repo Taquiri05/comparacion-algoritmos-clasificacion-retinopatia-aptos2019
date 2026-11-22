@@ -1,0 +1,1 @@
+La prueba se evaluo una sola vez. No volver a ejecutar fase6_paso2_prueba.py.
